@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar'
 import LocationSelector from '../components/LocationSelector'
 import Map from '../components/Map'
+import Confirm from '../components/Confirm'
 
 
 const style = {
@@ -22,7 +23,7 @@ export default function Home() {
       <div className={style.deliveryRequestContainer}>
           <div className={style.deliveryRequest}>
             <LocationSelector />
-            {/* confirm order */}
+            <Confirm />
           </div>
       </div>
     </div>
